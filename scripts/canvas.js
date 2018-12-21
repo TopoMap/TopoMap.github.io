@@ -236,10 +236,10 @@ function Canvas() {
   ctx.fillRect(y+h*v,y+w*v,10,10); h = h+1; 
   ctx.fillRect(y+h*v,y+w*v,10,10); h = h+1; 
   ctx.fillRect(y+h*v,y+w*v,10,10); h = h+1;
-  ctx.fillStyle = 'red';
   ctx.fillRect(y+h*v,y+w*v,10,10); h = h+1; 
-  ctx.fillStyle = 'black';
+  ctx.fillStyle = 'red'; 
   ctx.fillRect(y+h*v,y+w*v,10,10); h = h+1; 
+  ctx.fillStyle = 'black'; 
   ctx.fillRect(y+h*v,y+w*v,10,10); h = h+1; 
   ctx.fillRect(y+h*v,y+w*v,10,10); h = h+1; 
   ctx.fillRect(y+h*v,y+w*v,10,10); h = h+1; 
