@@ -236,9 +236,9 @@ function Canvas() {
   ctx.fillRect(y+h*v,y+w*v,10,10); h = h+1; 
   ctx.fillRect(y+h*v,y+w*v,10,10); h = h+1; 
   ctx.fillRect(y+h*v,y+w*v,10,10); h = h+1;
-  ctx.fillstyle = red;
+  ctx.fillstyle = 'red';
   ctx.fillRect(y+h*v,y+w*v,10,10); h = h+1; 
-  ctx.fillstyle = black;
+  ctx.fillstyle = 'black';
   ctx.fillRect(y+h*v,y+w*v,10,10); h = h+1; 
   ctx.fillRect(y+h*v,y+w*v,10,10); h = h+1; 
   ctx.fillRect(y+h*v,y+w*v,10,10); h = h+1; 
